@@ -1,10 +1,11 @@
 import React from 'react'
+import HeaderMain from '../HeaderMain/HeaderMain'
 
 export default function Home() {
     return (
-        <div>
-            <h1>This is home</h1>
+        <>
+         <HeaderMain/>   
             
-        </div>
+        </>
     )
 }
